@@ -1,0 +1,31 @@
+.activeLink {
+    color: rgb(121, 86, 23);
+}
+
+.nonactiveLink {
+    color: rgb(160, 160, 160);
+}
+
+header {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.activeLink {
+    color: #e50914;
+}
+
+.nonactiveLink {
+    color: rgb(220, 220, 220);
+}
